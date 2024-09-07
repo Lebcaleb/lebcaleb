@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:"Inconsolata", monospace;
+    background-color: darkcyan;
+}
+/*Configuração do menu*/
+.menu {
+    background-color:#7fffd4 ;
+    padding-top:1%;
+    font-size: 16px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+}
+li, a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255,255,255);
+    padding: 2%;
+    font-weight: 600;
+
+}
+li:hover {
+    transform: scale(1.2);
+    transition:0.1s;
+}
+/*rodapé*/
+.rodape {
+    display: flex;
+    justify-content: center;
+    bottom: 0%;
+    width: 100%;
+    font-size: 12px;
+    height: 5vh;
+    color: #fff;
+
+}
+/*configuração da pagina inicial*/
+.conteudo-inicial {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.texto-inicial {
+    max-width: 430px;
+    font-weight: 600;
+    color: #1d1407;
+}
+h1 {
+    font-size: 20px;
+    font-weight: 800;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+/*configuração do portifólio*/
+.conteudo-xp {
+    margin: 0px auto;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.texto-xp {
+    max-width: 430px;
+    color: #1d1407;
+}
+/*configuração da pagina pessoal*/
+.conteudo-pessoal {
+    display: flex;
+    justify-content: center;
+    padding-top: 0%;
+}
+.texto-pessoal {
+    max-width: 800px;
+    color: #1d1407;
+}
+/*configuração contato*/
+.contato {
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 3%;
+}
+label {
+    display: block;
+    padding-top: 15px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #c2c2c2;
+}
+textarea {
+    padding-bottom: 30%;
+}
+button {
+    background-color: #444;
+    color: #fff;
+    padding: 10 px 50 px;
+    border: none;
+}
+button:hover {
+    background-color: #666;
+}
